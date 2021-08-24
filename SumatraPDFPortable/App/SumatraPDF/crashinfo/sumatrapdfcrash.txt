@@ -1,0 +1,1490 @@
+Crash file: C:\Users\lucas.correa\SumatraPDFPortable\App\sumatrapdf\crashinfo\sumatrapdfcrash.txt
+Exe: C:\Users\lucas.correa\SumatraPDFPortable\App\sumatrapdf\SumatraPDF.exe
+BuiltOn: 2020-03-14
+Type: static
+Ver: 3.2
+Git: fc8f35a2d0581735ea361990dc65c674b3cd2dcb (https://github.com/sumatrapdfreader/sumatrapdf/commit/fc8f35a2d0581735ea361990dc65c674b3cd2dcb)
+OS: Windows 10 build 19042 Wow64
+Number Of Processors: 12
+Processor: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz
+Physical Memory: 15.81 GB
+Commit Charge Limit: 18.19 GB
+Memory Used: 58%
+Machine: XPS 1.1.16
+Lang: pt BR
+Graphics driver 0
+  DriverDesc:         NVIDIA GeForce GTX 1050 Ti
+  DriverVersion:      27.21.14.5167
+  UserModeDriverName: C:\Windows\System32\DriverStore\FileRepository\nvdd.inf_amd64_37dfa884d4a14547\nvldumdx.dll
+Graphics driver 1
+  DriverDesc:         Intel(R) UHD Graphics 630
+  DriverVersion:      27.20.100.8681
+  UserModeDriverName: C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_a086f01cc7be643a\igdumdim64.dll
+
+Exception: C0000005 ACCESS_VIOLATION
+Faulting IP: 00F9BB5A 01:001EAB5A sumatrapdf.exe
+Fault reading address 00000020
+
+Registers:
+EAX:00000000  EBX:03F65350  ECX:00000000
+EDX:03F57928  ESI:00D5E184  EDI:00000000
+CS:EIP:0023:00F9BB5A
+SS:ESP:002B:00D5DF04  EBP:00D5E0BC
+DS:002B  ES:002B  FS:0053  GS:002B
+Flags:00210206
+
+Crashed thread:
+00F9BB5A 01:001EAB5A sumatrapdf.exe
+00EDCF31 01:0012BF31 sumatrapdf.exe
+00E7F1FB 01:000CE1FB sumatrapdf.exe
+00E811CB 01:000D01CB sumatrapdf.exe
+00EA4066 01:000F3066 sumatrapdf.exe
+01189D71 01:003D8D71 sumatrapdf.exe
+760FFA29 01:0000FA29 kernel32.dll
+772F7C7E 01:00066C7E ntdll.dll
+772F7C4E 01:00066C4E ntdll.dll
+
+Module: 00DB0000 E10000 SumatraPDF.exe   C:\Users\lucas.correa\SumatraPDFPortable\App\sumatrapdf\SumatraPDF.exe
+Module: 77290000 1A3000 ntdll.dll        C:\Windows\SYSTEM32\ntdll.dll
+Module: 760E0000 0F0000 KERNEL32.DLL     C:\Windows\System32\KERNEL32.DLL
+Module: 76210000 214000 KERNELBASE.dll   C:\Windows\System32\KERNELBASE.dll
+Module: 757D0000 196000 USER32.dll       C:\Windows\System32\USER32.dll
+Module: 75FB0000 018000 win32u.dll       C:\Windows\System32\win32u.dll
+Module: 75C90000 023000 GDI32.dll        C:\Windows\System32\GDI32.dll
+Module: 748F0000 210000 COMCTL32.dll     C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.844_none_11adecdf30011423\COMCTL32.dll
+Module: 76CE0000 0DC000 gdi32full.dll    C:\Windows\System32\gdi32full.dll
+Module: 76670000 0BF000 msvcrt.dll       C:\Windows\System32\msvcrt.dll
+Module: 702F0000 515000 d2d1.dll         C:\Windows\SYSTEM32\d2d1.dll
+Module: 76DC0000 07B000 msvcp_win.dll    C:\Windows\System32\msvcp_win.dll
+Module: 76A60000 120000 ucrtbase.dll     C:\Windows\System32\ucrtbase.dll
+Module: 75DF0000 0AF000 COMDLG32.dll     C:\Windows\System32\COMDLG32.dll
+Module: 76770000 281000 combase.dll      C:\Windows\System32\combase.dll
+Module: 75970000 0C0000 RPCRT4.dll       C:\Windows\System32\RPCRT4.dll
+Module: 747C0000 06D000 WINSPOOL.DRV     C:\Windows\SYSTEM32\WINSPOOL.DRV
+Module: 75CC0000 087000 shcore.dll       C:\Windows\System32\shcore.dll
+Module: 75780000 045000 SHLWAPI.dll      C:\Windows\System32\SHLWAPI.dll
+Module: 75140000 5B4000 SHELL32.dll      C:\Windows\System32\SHELL32.dll
+Module: 75AB0000 07A000 ADVAPI32.dll     C:\Windows\System32\ADVAPI32.dll
+Module: 75A30000 076000 sechost.dll      C:\Windows\System32\sechost.dll
+Module: 75BA0000 0E3000 ole32.dll        C:\Windows\System32\ole32.dll
+Module: 75D50000 096000 OLEAUT32.dll     C:\Windows\System32\OLEAUT32.dll
+Module: 76020000 025000 IMM32.DLL        C:\Windows\System32\IMM32.DLL
+Module: 73DC0000 074000 uxtheme.dll      C:\Windows\system32\uxtheme.dll
+Module: 73E70000 026000 dwmapi.dll       C:\Windows\system32\dwmapi.dll
+Module: 76490000 007000 normaliz.dll     C:\Windows\System32\normaliz.dll
+Module: 70070000 274000 uiautomationcore.dll C:\Windows\system32\uiautomationcore.dll
+Module: 71EE0000 0C3000 PROPSYS.dll      C:\Windows\SYSTEM32\PROPSYS.dll
+Module: 73B40000 188000 dbghelp.dll      C:\Windows\system32\dbghelp.dll
+Module: 73B10000 026000 dbgcore.DLL      C:\Windows\SYSTEM32\dbgcore.DLL
+Module: 70E60000 16A000 gdiplus.dll      C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.789_none_429ddec08a8f10c1\gdiplus.dll
+Module: 72010000 006000 msimg32.dll      C:\Windows\system32\msimg32.dll
+Module: 71560000 1A9000 urlmon.dll       C:\Windows\system32\urlmon.dll
+Module: 72850000 22B000 iertutil.dll     C:\Windows\SYSTEM32\iertutil.dll
+Module: 74860000 008000 version.dll      C:\Windows\system32\version.dll
+Module: 71C10000 170000 windowscodecs.dll C:\Windows\system32\windowscodecs.dll
+Module: 761D0000 019000 bcrypt.dll       C:\Windows\System32\bcrypt.dll
+Module: 73EF0000 45A000 wininet.dll      C:\Windows\system32\wininet.dll
+Module: 74B30000 608000 windows.storage.dll C:\Windows\SYSTEM32\windows.storage.dll
+Module: 74B00000 024000 Wldp.dll         C:\Windows\SYSTEM32\Wldp.dll
+
+
+-------- Log -----------------
+
+Starting SumatraPDF
+CmdLine: "C:\Users\lucas.correa\SumatraPDFPortable\App\sumatrapdf\SumatraPDF.exe" -print-to "Samsung M332x 382x 402x Series" "C:\Users\lucas.correa\Desktop\MPOP201.PDF"
+PrintFile: file: 'C:\Users\lucas.correa\Desktop\MPOP201.PDF', printer: 'Samsung M332x 382x 402x Series'
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+malloc of 139038720 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+malloc of 139038720 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+malloc of 139038720 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+malloc of 139038720 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+malloc of 139038720 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+malloc of 139038720 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+malloc of 139038720 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+malloc of 139038720 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+malloc of 139038720 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+malloc of 139038720 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+malloc of 139038720 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+malloc of 8689920 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+malloc of 8689920 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+malloc of 8689920 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+malloc of 8689920 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+malloc of 8689920 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+malloc of 8689920 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+malloc of 8689920 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+malloc of 8689920 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+malloc of 8689920 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+malloc of 8689920 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+malloc of 8689920 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+malloc of 8689920 bytes failed
+malloc of 2102100 bytes failed
+Ignoring error during interpretation
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+malloc of 8689920 bytes failed
+malloc of 2172480 bytes failed
+malloc of 2102100 bytes failed
+Ignoring error during interpretation
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1513377 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+malloc of 8689920 bytes failed
+malloc of 2172480 bytes failed
+malloc of 2102100 bytes failed
+Ignoring error during interpretation
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+realloc (1008918 bytes) failed
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+malloc of 8689920 bytes failed
+malloc of 2172480 bytes failed
+malloc of 2102100 bytes failed
+Ignoring error during interpretation
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+malloc of 8689920 bytes failed
+malloc of 2172480 bytes failed
+malloc of 2102100 bytes failed
+Ignoring error during interpretation
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+malloc of 8689920 bytes failed
+malloc of 2172480 bytes failed
+malloc of 2102100 bytes failed
+Ignoring error during interpretation
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+malloc of 8689920 bytes failed
+malloc of 2172480 bytes failed
+malloc of 2102100 bytes failed
+Ignoring error during interpretation
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (1008918 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+malloc of 8689920 bytes failed
+malloc of 2172480 bytes failed
+malloc of 2102100 bytes failed
+Ignoring error during interpretation
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+realloc (672612 bytes) failed
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+malloc of 8689920 bytes failed
+malloc of 2172480 bytes failed
+malloc of 543120 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+realloc (672612 bytes) failed
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+malloc of 8689920 bytes failed
+malloc of 2172480 bytes failed
+malloc of 543120 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (672612 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+realloc (448408 bytes) failed
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+malloc of 8689920 bytes failed
+malloc of 2172480 bytes failed
+malloc of 543120 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (448408 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'CourierNew' from 'C:\Windows\Fonts\cour.ttf'
+realloc (298939 bytes) failed
+malloc of 139038720 bytes failed
+malloc of 34759680 bytes failed
+malloc of 8689920 bytes failed
+malloc of 2172480 bytes failed
+malloc of 543120 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (298939 bytes) failed
+malloc of 354631 bytes failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'Arial' from 'C:\Windows\Fonts\arial.ttf'
+realloc (298939 bytes) failed
+loading non-embedded font 'Arial,Bold' from 'C:\Windows\Fonts\arialbd.ttf'
+realloc (298939 bytes) failed
+malloc of 354631 bytes failed
+
+
+----- Settings file ----------
+
+﻿# For documentation, see https://www.sumatrapdfreader.org/settings/settings3.2.html
+
+MainWindowBackground = #80fff200
+EscToExit = false
+ReuseInstance = false
+UseSysColors = false
+RestoreSession = true
+TabWidth = 300
+
+FixedPageUI [
+	TextColor = #000000
+	BackgroundColor = #ffffff
+	SelectionColor = #f5fc0c
+	WindowMargin = 2 4 2 4
+	PageSpacing = 4 4
+]
+EbookUI [
+	FontName = Georgia
+	FontSize = 12.5
+	TextColor = #5f4b32
+	BackgroundColor = #fbf0d9
+	UseFixedPageUI = false
+]
+ComicBookUI [
+	WindowMargin = 0 0 0 0
+	PageSpacing = 4 4
+	CbxMangaMode = false
+]
+ChmUI [
+	UseFixedPageUI = false
+]
+ExternalViewers [
+]
+ShowMenubar = true
+ReloadModifiedDocuments = true
+FullPathInTitle = false
+ZoomLevels = 8.33 12.5 18 25 33.33 50 66.67 75 100 125 150 200 300 400 600 800 1000 1200 1600 2000 2400 3200 4800 6400
+ZoomIncrement = 0
+
+PrinterDefaults [
+	PrintScale = shrink
+]
+ForwardSearch [
+	HighlightOffset = 0
+	HighlightWidth = 15
+	HighlightColor = #6581ff
+	HighlightPermanent = false
+]
+CustomScreenDPI = 0
+
+RememberStatePerDocument = true
+UiLanguage = br
+ShowToolbar = true
+ShowFavorites = false
+AssociateSilently = false
+CheckForUpdates = true
+RememberOpenedFiles = true
+EnableTeXEnhancements = false
+DefaultDisplayMode = automatic
+DefaultZoom = fit page
+WindowState = 1
+WindowPos = 0 0 0 0
+ShowToc = true
+SidebarDx = 0
+TocDy = 0
+ShowStartPage = true
+UseTabs = true
+
+FileStates [
+]
+SessionData [
+]
+TimeOfLastUpdateCheck = 0 0
+OpenCountWeek = 553
+
+# Settings after this line have not been recognized by the current version

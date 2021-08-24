@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StatusMonitorInfo>
+<Capabilities PSU="FALSE">
+</Capabilities>
+<Capabilities ExtendedJobTableCode="TRUE">
+</Capabilities>
+<Capabilities MultiTonerID="TRUE">
+</Capabilities>
+<PaperSizeTable version="1.0.0">
+	<PaperSize name="Letter" snmpcode="na_letter" usbcode="0" feeddir="279400" xfeeddir="215900">
+</PaperSize>
+	<PaperSize name="Legal" snmpcode="na_legal" usbcode="1" feeddir="355600" xfeeddir="215900">
+</PaperSize>
+	<PaperSize name="Oficio" snmpcode="Oficio" usbcode="32" feeddir="342900" xfeeddir="215900">
+</PaperSize>
+	<PaperSize name="Folio" snmpcode="na_foolscap" usbcode="4" feeddir="330000" xfeeddir="216000">
+</PaperSize>
+	<PaperSize name="A4" snmpcode="iso_a4" usbcode="10" feeddir="297000" xfeeddir="210000">
+</PaperSize>
+	<PaperSize name="B5(ISO) " snmpcode="iso_b5" usbcode="13" feeddir="250000" xfeeddir="176000">
+</PaperSize>
+	<PaperSize name="B5(JIS)" snmpcode="jis_b5" usbcode="14" feeddir="256540" xfeeddir="182880">
+</PaperSize>
+	<PaperSize name="Statement" snmpcode="na_invoice" usbcode="3" feeddir="215900" xfeeddir="139700">
+</PaperSize>
+	<PaperSize name="Executive" snmpcode="na_executive" usbcode="2" feeddir="266700" xfeeddir="184150">
+</PaperSize>
+	<PaperSize name="A5" snmpcode="iso_a5" usbcode="11" feeddir="210000" xfeeddir="148500">
+</PaperSize>
+	<PaperSize name="A6" snmpcode="iso_a6" usbcode="12" feeddir="148500" xfeeddir="105000">
+</PaperSize>
+	<PaperSize name="Monarch Envelope" snmpcode="na_monarch" usbcode="8" feeddir="190500" xfeeddir="98400">
+</PaperSize>
+	<PaperSize name="DL Envelope" snmpcode="iso_dl" usbcode="15" feeddir="220000" xfeeddir="110000">
+</PaperSize>
+	<PaperSize name="C5 Envelope" snmpcode="iso_c5" usbcode="16" feeddir="229000" xfeeddir="162000">
+</PaperSize>
+	<PaperSize name="C6 Envelope" snmpcode="iso_c6" usbcode="17" feeddir="162000" xfeeddir="114000">
+</PaperSize>
+	<PaperSize name="No. 10 Envelope" snmpcode="na_number-10" usbcode="7" feeddir="241300" xfeeddir="104902">
+</PaperSize>
+	<PaperSize name="No. 9 Envelope" snmpcode="na_number-9" usbcode="35" feeddir="225000" xfeeddir="98000">
+</PaperSize>
+	<PaperSize name="Index Card" snmpcode="na_index-3x5" usbcode="6" feeddir="127000" xfeeddir="76200">
+</PaperSize>
+	<PaperSize name="Postcard 4x6" snmpcode="na_index-4x6" usbcode="41" feeddir="152400" xfeeddir="101600">
+</PaperSize>
+	<PaperSize name="Not Installed" snmpcode="NULL" usbcode="255">
+</PaperSize>
+	<PaperSize name="Custom" snmpcode="custom" usbcode="9">
+</PaperSize>
+</PaperSizeTable>
+<TrayName desc="Sequence of Tray Name via USB communication">
+	<Tray name="Tray 1">
+</Tray>
+	<Tray name="MP Tray">
+</Tray>
+</TrayName>
+<URL>
+	<TonerOrder SEPARATOR=",">http://www.samsung.com/printer-accessory/ML-4020.psu</TonerOrder>
+	<TonerID>
+		<Black String="Standard Toner">MLT-D203S</Black>
+		<Black String="High Yield Toner">MLT-D203L</Black>
+		<Black String="Extra High Yield Toner">MLT-D203E</Black>
+		<Black String="Extra High2 Yield Toner">MLT-D203U</Black>
+</TonerID>
+</URL>
+<GeneralMSG version="1.2.0.0" update="22-Jan-2013" type="common">
+	<Offline STRING="Printer status is not available" DESCRIPTION="Printer is disconnected or there is environmental issue.">
+</Offline>
+	<PowerSave STRING="Sleeping..." DESCRIPTION="Power save or sleeping mode">
+</PowerSave>
+	<Waiting STRING="Warming up... Please wait few minutes." DESCRIPTION="Related waiting or warming up or adjusting color registration or processing or self diagnostics mode or tray cassette is elevating">
+</Waiting>
+	<Printing STRING="Printing..." DESCRIPTION="Printing">
+</Printing>
+	<None STRING="Ready" DESCRIPTION="Indicates that there are no current state reasons ">
+</None>
+	<DoorOpen  STRING="Please check the printer and close any open doors. The printer cannot print while a door is open." DESCRIPTION="One or more covers on the device are open.  ">
+</DoorOpen >
+	<MarkerSupplyLow  STRING="Please check the printer and add toner." DESCRIPTION="The device is low on at least one marker supply, e.g., toner, ink, ribbon.">
+</MarkerSupplyLow >
+	<MarkerFailure  STRING="Please check the toner system in your printer." DESCRIPTION="The device has at least one marking device which has failed and requires service or replacement.">
+</MarkerFailure >
+	<MarkerSupplyEmpty STRING="Please check the printer and add toner." DESCRIPTION="The device is out of at least one marker supply, e.g., toner, ink, ribbon.">
+</MarkerSupplyEmpty>
+	<MediaLow STRING="Please check the printer and add more paper." DESCRIPTION="At least one input tray is low on media. ">
+</MediaLow>
+	<MediaEmpty STRING="Please check the printer and add more paper." DESCRIPTION="At least one input tray is empty.">
+</MediaEmpty>
+	<MediaJam  STRING="Please check the printer and clear the paper jam. The printer cannot print until the paper jam is cleared." DESCRIPTION="The device has a media jam.">
+</MediaJam >
+	<MediaNeeded STRING="Please check your printer for paper problems." DESCRIPTION="A job has been submitted that is requesting media that is currently not loaded.  The job has specified a particular MediaSize and MediaType argument value combination that is not loaded, although the Printer supports that combination. ">
+</MediaNeeded>
+	<OutputAreaAlmostFull STRING="Please empty the output tray on the printer." DESCRIPTION="One or more output area is almost full (e.g. tray, stacker, collator).">
+</OutputAreaAlmostFull>
+	<OutputAreaFull  STRING="Please empty the output tray on the printer." DESCRIPTION="One or more output area is full, e.g.,. tray, stacker, collator.">
+</OutputAreaFull >
+	<AttentionRequired STRING="Please check the printer for any problems." DESCRIPTION="The device has stopped for a reason other than the PrinterStateReasons listed here and requires human intervention before it can continue.">
+</AttentionRequired>
+	<Paused STRING="Printer has been paused" DESCRIPTION="Someone has paused the printer and the PrinterState is Stopped. In this state, a Printer will not produce printed output. ">
+</Paused>
+</GeneralMSG>
+<Status>
+	<UsbCableOff STRING="USB Printer status is not available" GeneralMSG="Offline">
+		<Mask>[00][FF][FF][00][00][00][00][00]</Mask>
+		<Status>[84][00][01][FF][FF][FF][FF][FF]</Status>
+</UsbCableOff>
+	<NetworkCableOff STRING="Network Printer status is not available" GeneralMSG="Offline">
+		<Mask>[00][FF][FF][00][00][00][00][00]</Mask>
+		<Status>[84][00][02][FF][FF][FF][FF][FF]</Status>
+</NetworkCableOff>
+	<NotSupportedError STRING="Not Supported Error" GeneralMSG="Offline">
+		<Mask>[00][FF][FF][00][00][00][00][00]</Mask>
+		<Status>[84][00][03][FF][FF][FF][FF][FF]</Status>
+</NotSupportedError>
+	<Ready STRING="Ready" GeneralMSG="None">
+		<Mask>[00][FF][FF][00][00][00][00][00]</Mask>
+		<Status>[81][01][01][FF][FF][FF][FF][FF]</Status>
+</Ready>
+	<PowerSave STRING="Sleeping..." GeneralMSG="PowerSave">
+		<Mask>[00][FF][FF][00][00][00][00][00]</Mask>
+		<Status>[81][01][03][FF][FF][FF][FF][FF]</Status>
+</PowerSave>
+	<MicroPowerSave STRING="Sleeping..." GeneralMSG="PowerSave">
+		<Mask>[00][FF][FF][FF][00][00][00][00]</Mask>
+		<Status>[81][AA][AA][AA][FF][FF][FF][FF]</Status>
+</MicroPowerSave>
+	<AcrMode STRING="Adjusting Color Registration... Please wait few minutes." GeneralMSG="Waiting">
+		<Status>[81][01][0A][FF][FF][FF][FF][FF]</Status>
+</AcrMode>
+	<Printing STRING="Printing..." GeneralMSG="Printing">
+		<Mask>[00][FF][FF][00][00][00][00][00]</Mask>
+		<Status>[81][01][04][FF][FF][FF][FF][FF]</Status>
+</Printing>
+	<Warmingup STRING="Warming up... Please wait few minutes." GeneralMSG="Waiting">
+		<Mask>[00][FF][FF][00][00][00][00][00]</Mask>
+		<Status>[81][01][05][FF][FF][FF][FF][FF]</Status>
+</Warmingup>
+	<PaperJam0MPF STRING="Paper jam in MP Tray" GeneralMSG="MediaJam" TroubleshootingID="cpj-p09">
+		<Status>[84][03][01][03][FF][FF][FF][FF]</Status>
+</PaperJam0MPF>
+	<PaperJam0Tray1 STRING="Paper jam in Tray 1" GeneralMSG="MediaJam" TroubleshootingID="cpj-p02">
+		<Status>[84][03][01][04][FF][FF][FF][FF]</Status>
+</PaperJam0Tray1>
+	<PaperJam0Tray2 STRING="Paper jam in Tray 2" GeneralMSG="MediaJam" TroubleshootingID="cpj-p03">
+		<Status>[84][03][01][05][FF][FF][FF][FF]</Status>
+</PaperJam0Tray2>
+	<PaperJam1 STRING="Paper jam inside of machine" GeneralMSG="MediaJam" TroubleshootingID="cpj-p01">
+		<Status>[84][03][01][08][FF][FF][FF][FF]</Status>
+</PaperJam1>
+	<PaperJam2 STRING="Paper jam in exit area" GeneralMSG="MediaJam" TroubleshootingID="cpj-p01">
+		<Status>[84][03][01][09][FF][FF][FF][FF]</Status>
+</PaperJam2>
+	<DupPathJam2 STRING="Paper jam inside of duplex path" GeneralMSG="MediaJam" TroubleshootingID="cpj-p03">
+		<Status>[84][03][01][0E][FF][FF][FF][FF]</Status>
+</DupPathJam2>
+	<MPPaperEmpty STRING="Paper is empty in MP Tray. Load paper" GeneralMSG="MediaEmpty">
+		<Status>[84][03][02][01][FF][FF][FF][FF]</Status>
+</MPPaperEmpty>
+	<FirstPaperEmpty STRING="Paper is empty in Tray 1. Load paper" GeneralMSG="MediaEmpty">
+		<Status>[84][03][02][02][FF][FF][FF][FF]</Status>
+</FirstPaperEmpty>
+	<PaperEmpty_M1_5113 STRING="Paper is empty in tray 1. Load paper" GeneralMSG="MediaEmpty">
+		<Status>[82][03][06][02][FF][FF][FF][FF]</Status>
+</PaperEmpty_M1_5113>
+	<PaperEmpty_M1_5120 STRING="Paper is empty in all trays. Load paper" GeneralMSG="MediaEmpty">
+		<Status>[84][03][06][16][FF][FF][FF][FF]</Status>
+</PaperEmpty_M1_5120>
+	<OptPaperEmpty STRING="Paper is empty in Tray 2. Load paper" GeneralMSG="MediaEmpty">
+		<Status>[84][03][02][03][FF][FF][FF][FF]</Status>
+</OptPaperEmpty>
+	<OptPaperEmpty_H1_1254 STRING="Paper is empty in tray 2. Load paper" GeneralMSG="MediaEmpty">
+		<Status>[82][03][02][14][FF][FF][FF][FF]</Status>
+</OptPaperEmpty_H1_1254>
+	<MPPaperMismatch STRING="Paper mismatch in MP tray." GeneralMSG="MediaNeeded">
+		<Status>[84][03][04][01][FF][FF][FF][FF]</Status>
+</MPPaperMismatch>
+	<FirstPaperMismatch STRING="Paper mismatch in tray1." GeneralMSG="MediaNeeded">
+		<Status>[84][03][04][02][FF][FF][FF][FF]</Status>
+</FirstPaperMismatch>
+	<OptPaperMismatch STRING="Paper mismatch in tray2." GeneralMSG="MediaNeeded">
+		<Status>[84][03][04][03][FF][FF][FF][FF]</Status>
+</OptPaperMismatch>
+	<FuserHighError STRING="Fuser Unit Failure: #U1-2340. Turn off then on. Call for service if the problem persists" GeneralMSG="AttentionRequired" StandardCode="U1-2340">
+		<Status>[84][08][01][01][FF][FF][FF][FF]</Status>
+</FuserHighError>
+	<FuserLowError STRING="Fuser Unit Failure: #U1-2330. Turn off then on. Call for service if the problem persists" GeneralMSG="AttentionRequired" StandardCode="U1-2330">
+		<Status>[84][08][01][02][FF][FF][FF][FF]</Status>
+</FuserLowError>
+	<FuserLowError_U1_2334 STRING="Fuser Unit Failure: #U1-2334. Turn off then on. Call for service if the problem persists" GeneralMSG="AttentionRequired" StandardCode="U1-2334">
+		<Status>[84][08][01][1B][FF][FF][FF][FF]</Status>
+</FuserLowError_U1_2334>
+	<FuserOpenError STRING="Fuser Unit Failure: #U1-2320. Turn off then on. Call for service if the problem persists" GeneralMSG="AttentionRequired" StandardCode="U1-2320">
+		<Status>[84][08][01][03][FF][FF][FF][FF]</Status>
+</FuserOpenError>
+	<FuserError_U1_2315 STRING="Fuser Unit Failure: #U1-2315. Turn off then on. Call for service if the problem persists" GeneralMSG="AttentionRequired" StandardCode="U1-2315">
+		<Status>[84][08][01][18][FF][FF][FF][FF]</Status>
+</FuserError_U1_2315>
+	<MainMotorError STRING="Motor Failure: #A1-1110. Turn off then on. Call for service if the problem persists" GeneralMSG="AttentionRequired" StandardCode="A1-1110">
+		<Status>[84][08][38][FF][FF][FF][FF][FF]</Status>
+</MainMotorError>
+	<OutbinFull STRING="Too much paper in output bin tray. Remove printed paper" GeneralMSG="OutputAreaFull">
+		<Status>[84][08][04][00][FF][FF][FF][FF]</Status>
+</OutbinFull>
+	<DoorOpen_S2_4120 STRING="Door is open. Close it." SHOWTONERLEVEL="FALSE" GeneralMSG="DoorOpen ">
+		<Status>[84][08][03][06][FF][FF][FF][FF]</Status>
+</DoorOpen_S2_4120>
+	<LSUNotReadyMotorError STRING="LSU Failure: #U2-1112. Turn off then on. Call for service if the problem persists" GeneralMSG="AttentionRequired" StandardCode="U2-1112">
+		<Status>[84][08][02][0F][FF][FF][FF][FF]</Status>
+</LSUNotReadyMotorError>
+	<LSUMotorError STRING="LSU Failure: #U2-1113.Turn off then on. Call for service if the problem persists" GeneralMSG="AttentionRequired" StandardCode="U2-1113">
+		<Status>[84][08][02][02][FF][FF][FF][FF]</Status>
+</LSUMotorError>
+	<Tray2NotInstalled STRING="Input System Failure: #H1-1230. Check Tray 2 connection" GeneralMSG="AttentionRequired" StandardCode="H1-1230">
+		<Status>[84][04][02][03][FF][FF][FF][FF]</Status>
+</Tray2NotInstalled>
+	<TonerSupplyError_C1_1310 STRING="Toner Cartridge Failure: #C1-1310. Install toner cartridge again" SHOWTONERLEVEL="FALSE" GeneralMSG="MarkerFailure " StandardCode="C1-1310">
+		<Status>[82][05][B2][00][FF][FF][FF][FF]</Status>
+</TonerSupplyError_C1_1310>
+	<InvalidTonerKit STRING="Toner cartridge is not compatible. Check users guide" GeneralMSG="MarkerFailure " TroubleshootingID="tsa-a01">
+		<Status>[84][05][06][00][FF][FF][FF][FF]</Status>
+</InvalidTonerKit>
+	<OPCInvalidK STRING="Imaging unit is not compatible. Check users guide" SHOWTONERLEVEL="FALSE" GeneralMSG="MarkerFailure " TroubleshootingID="tsa-a01">
+		<Status>[84][08][19][0A][FF][FF][FF][FF]</Status>
+</OPCInvalidK>
+	<DrumEmpty_C3_1410 STRING="Imaging unit is not installed. Install the unit" SHOWTONERLEVEL="FALSE" GeneralMSG="MarkerFailure " TroubleshootingID="tsa-a01">
+		<Status>[84][05][AC][FF][FF][FF][FF][FF]</Status>
+</DrumEmpty_C3_1410>
+	<TonerNotInstall_C2_1411 STRING="Toner cartridge is not installed. Install it" SHOWTONERLEVEL="FALSE" GeneralMSG="MarkerFailure ">
+		<Status>[84][05][AB][00][FF][FF][FF][FF]</Status>
+</TonerNotInstall_C2_1411>
+	<TonerKitNotInst STRING="Toner cartridge is not installed. Install the cartridge" SHOWTONERLEVEL="FALSE" GeneralMSG="MarkerFailure ">
+		<Status>[84][05][07][00][FF][FF][FF][FF]</Status>
+</TonerKitNotInst>
+	<TonerEmptyReplaceToner STRING="Replace with new toner cartridge" LOWTONERSTATUS="TRUE" Color="Black" GeneralMSG="MarkerSupplyEmpty " TroubleshootingID="ret-r01">
+		<Mask>[00][FF][FF][00][00][00][00][00]</Mask>
+		<Status>[84][05][01][00][FF][FF][FF][FF]</Status>
+</TonerEmptyReplaceToner>
+	<TonerEmptyReplaceToner1 STRING="Replace with new toner cartridge" LOWTONERSTATUS="TRUE" Color="Black" GeneralMSG="MarkerSupplyEmpty " TroubleshootingID="ret-r01">
+		<Mask>[00][FF][FF][00][00][00][00][00]</Mask>
+		<Status>[82][05][01][00][FF][FF][FF][FF]</Status>
+</TonerEmptyReplaceToner1>
+	<TonerLow STRING="Prepare new toner cartridge" LOWTONERSTATUS="TRUE" Color="Black" GeneralMSG="MarkerSupplyLow ">
+		<Mask>[00][FF][FF][00][00][00][00][00]</Mask>
+		<Status>[82][05][02][00][FF][FF][FF][FF]</Status>
+</TonerLow>
+	<TonerLow_C2_1110 STRING="Prepare new toner cartridge" LOWTONERSTATUS="TRUE" Color="Black" GeneralMSG="MarkerSupplyLow ">
+		<Mask>[00][FF][FF][00][00][00][00][00]</Mask>
+		<Status>[82][05][02][00][FF][FF][FF][FF]</Status>
+</TonerLow_C2_1110>
+	<RecycledToner STRING="Replace with new toner cartridge" LOWTONERSTATUS="TRUE" Color="Black" GeneralMSG="MarkerSupplyEmpty " TroubleshootingID="ret-r01">
+		<Mask>[00][FF][FF][00][00][00][00][00]</Mask>
+		<Status>[84][05][34][00][FF][FF][FF][FF]</Status>
+</RecycledToner>
+	<TonerExhausted_C2_1144 STRING="End of life, Replace with new toner cartridge" LOWTONERSTATUS="TRUE" Color="Black">
+		<Mask>[00][FF][FF][00][00][00][00][00]</Mask>
+		<Status>[84][05][B3][00][FF][FF][FF][FF]</Status>
+</TonerExhausted_C2_1144>
+	<TonerWorn_C2_1150 STRING="Replace with new toner cartridge." LOWTONERSTATUS="TRUE" Color="Black" GeneralMSG="MarkerSupplyEmpty " TroubleshootingID="ret-r01">
+		<Mask>[00][FF][FF][00][00][00][00][00]</Mask>
+		<Status>[82][05][B5][00][FF][FF][FF][FF]</Status>
+</TonerWorn_C2_1150>
+	<TonerWorn_C2_1160 STRING="Replace with new toner cartridge(C2-1160)" LOWTONERSTATUS="TRUE" Color="Black" GeneralMSG="MarkerSupplyEmpty " StandardCode="C2-1160" TroubleshootingID="ret-r01">
+		<Mask>[00][FF][FF][00][00][00][00][00]</Mask>
+		<Status>[84][05][B6][00][FF][FF][FF][FF]</Status>
+</TonerWorn_C2_1160>
+	<TonerWorn_C2_1170 STRING="End of life. Replace with new toner cartridge(C2-1170)" LOWTONERSTATUS="TRUE" Color="Black" GeneralMSG="MarkerSupplyEmpty " StandardCode="C2-1170" TroubleshootingID="ret-r01">
+		<Mask>[00][FF][FF][00][00][00][00][00]</Mask>
+		<Status>[82][05][B7][00][FF][FF][FF][FF]</Status>
+</TonerWorn_C2_1170>
+	<InvalidToner_C2_1512 STRING="Toner cartridge is not compatible. Check user's guide" GeneralMSG="MarkerFailure " TroubleshootingID="tsa-a01">
+		<Status>[84][05][06][09][FF][FF][FF][FF]</Status>
+</InvalidToner_C2_1512>
+	<TonerExhausted_C1_1144 STRING="End of life, Replace with new toner cartridge" LOWTONERSTATUS="TRUE" Color="Black" GeneralMSG="MarkerSupplyEmpty " TroubleshootingID="ret-r01">
+		<Mask>[00][FF][FF][00][00][00][00][00]</Mask>
+		<Status>[84][05][AE][00][FF][FF][FF][FF]</Status>
+</TonerExhausted_C1_1144>
+	<TonerExhausted_C1_1150 STRING="Replace with new toner cartridge." LOWTONERSTATUS="TRUE" Color="Black" GeneralMSG="MarkerSupplyEmpty " TroubleshootingID="ret-r01">
+		<Mask>[00][FF][FF][00][00][00][00][00]</Mask>
+		<Status>[82][05][AF][00][FF][FF][FF][FF]</Status>
+</TonerExhausted_C1_1150>
+	<TonerExhausted_C1_1160 STRING="Replace with new toner cartridge(C1-1160)" LOWTONERSTATUS="TRUE" Color="Black" GeneralMSG="MarkerSupplyEmpty " StandardCode="C1-1160" TroubleshootingID="ret-r01">
+		<Mask>[00][FF][FF][00][00][00][00][00]</Mask>
+		<Status>[84][05][B0][00][FF][FF][FF][FF]</Status>
+</TonerExhausted_C1_1160>
+	<TonerExhausted_C1_1170 STRING="End of life. Replace with new toner cartridge(C1-1170)" LOWTONERSTATUS="TRUE" Color="Black" GeneralMSG="MarkerSupplyEmpty " StandardCode="C1-1170" TroubleshootingID="ret-r01">
+		<Mask>[00][FF][FF][00][00][00][00][00]</Mask>
+		<Status>[82][05][B1][00][FF][FF][FF][FF]</Status>
+</TonerExhausted_C1_1170>
+	<CrumError_C1_1710 STRING="Toner Cartridge Failure: #C1-1710. Call for service" LOWTONERSTATUS="TRUE" Color="Black" GeneralMSG="MarkerFailure " StandardCode="C1-1710">
+		<Mask>[00][FF][FF][00][00][00][00][00]</Mask>
+		<Status>[84][18][01][FF][FF][FF][FF][FF]</Status>
+</CrumError_C1_1710>
+	<CrumError_C1_1711 STRING="Toner Cartridge Failure: #C1-1711. Call for service" LOWTONERSTATUS="TRUE" Color="Black" GeneralMSG="MarkerFailure " StandardCode="C1-1711">
+		<Mask>[00][FF][FF][00][00][00][00][00]</Mask>
+		<Status>[84][18][02][FF][FF][FF][FF][FF]</Status>
+</CrumError_C1_1711>
+	<CrumError_C1_1712 STRING="Toner Cartridge Failure: #C1-1712. Call for service" LOWTONERSTATUS="TRUE" Color="Black" GeneralMSG="MarkerFailure " StandardCode="C1-1712">
+		<Mask>[00][FF][FF][00][00][00][00][00]</Mask>
+		<Status>[84][18][03][FF][FF][FF][FF][FF]</Status>
+</CrumError_C1_1712>
+	<CrumError_C2_1711 STRING="Toner Cartridge Failure: #C2-1711. Call for service" LOWTONERSTATUS="TRUE" Color="Black" GeneralMSG="MarkerFailure " StandardCode="C2-1711">
+		<Mask>[00][FF][FF][00][00][00][00][00]</Mask>
+		<Status>[84][18][05][FF][FF][FF][FF][FF]</Status>
+</CrumError_C2_1711>
+	<CrumError_C2_1712 STRING="Toner Cartridge Failure: #C2-1712. Call for service" LOWTONERSTATUS="TRUE" Color="Black" GeneralMSG="MarkerFailure " StandardCode="C2-1712">
+		<Mask>[00][FF][FF][00][00][00][00][00]</Mask>
+		<Status>[84][18][06][FF][FF][FF][FF][FF]</Status>
+</CrumError_C2_1712>
+	<OpcLow STRING="Prepare new imaging unit" GeneralMSG="MarkerSupplyLow ">
+		<Status>[82][05][56][FF][FF][FF][FF][FF]</Status>
+</OpcLow>
+	<ReplaceImageSoon STRING="Replace with new imaging unit" GeneralMSG="MarkerSupplyEmpty " TroubleshootingID="rei-r01">
+		<Mask>[00][FF][FF][FF][00][00][00][00]</Mask>
+		<Status>[82][05][16][FF][FF][FF][FF][FF]</Status>
+</ReplaceImageSoon>
+	<ImagingUnitWorn_C3_1144 STRING="Replace with new imaging unit." GeneralMSG="MarkerSupplyEmpty " TroubleshootingID="rei-r01">
+		<Mask>[00][FF][FF][FF][00][00][00][00]</Mask>
+		<Status>[84][05][AD][04][FF][FF][FF][FF]</Status>
+</ImagingUnitWorn_C3_1144>
+	<ImagingunitWorn_C3_1150 STRING="Replace with new imaging unit(C3-1150)" GeneralMSG="MarkerSupplyEmpty " StandardCode="C3-1150" TroubleshootingID="rei-r01">
+		<Status>[82][05][B8][04][FF][FF][FF][FF]</Status>
+</ImagingunitWorn_C3_1150>
+	<ImagingunitWorn_C3_1160 STRING="Replace with new imaging unit(C3-1160)" GeneralMSG="MarkerSupplyEmpty " StandardCode="C3-1160">
+		<Status>[84][05][B9][04][FF][FF][FF][FF]</Status>
+</ImagingunitWorn_C3_1160>
+	<ImagingunitWorn_C3_1170 STRING="End of life. Replace with new imaging unit(C3-1170)" GeneralMSG="MarkerSupplyEmpty " StandardCode="C3-1170" TroubleshootingID="rei-r01">
+		<Status>[82][05][BA][04][FF][FF][FF][FF]</Status>
+</ImagingunitWorn_C3_1170>
+	<ReplaceTray1Roller STRING="Replace with new Tray1 pickup roller" GeneralMSG="MarkerSupplyEmpty ">
+		<Mask>[00][FF][FF][00][00][00][00][00]</Mask>
+		<Status>[82][08][21][FF][FF][FF][FF][FF]</Status>
+</ReplaceTray1Roller>
+	<ReplaceTray1Roller_C9_1115 STRING="Replace with new Tray1 retard roller" GeneralMSG="MarkerSupplyEmpty ">
+		<Mask>[00][FF][FF][00][00][00][00][00]</Mask>
+		<Status>[82][08][5E][FF][FF][FF][FF][FF]</Status>
+</ReplaceTray1Roller_C9_1115>
+	<ReplaceTray2Roller STRING="Replace with new Tray2 pickup roller" GeneralMSG="MarkerSupplyEmpty ">
+		<Mask>[00][FF][FF][00][00][00][00][00]</Mask>
+		<Status>[82][08][22][FF][FF][FF][FF][FF]</Status>
+</ReplaceTray2Roller>
+	<ReplaceTray2Roller_C9_1125 STRING="Replace with new Tray2 retard roller" GeneralMSG="MarkerSupplyEmpty ">
+		<Mask>[00][FF][FF][00][00][00][00][00]</Mask>
+		<Status>[82][08][5F][FF][FF][FF][FF][FF]</Status>
+</ReplaceTray2Roller_C9_1125>
+	<IPConflict STRING="This IP address conflicts with that of other system. Check it" GeneralMSG="AttentionRequired" TroubleshootingID="tsa-a01">
+		<Mask>[00][FF][FF][00][00][00][00][00]</Mask>
+		<Status>[82][0A][02][FF][FF][FF][FF][FF]</Status>
+</IPConflict>
+	<AuthenticationFailure STRING="802.1x authentication failed. Please Contact the System Administrator" GeneralMSG="None">
+		<Status>[84][0A][09][FF][FF][FF][FF][FF]</Status>
+</AuthenticationFailure>
+	<JamInside_M3-1112 STRING="Paper jam inside of machine" GeneralMSG="MediaJam" TroubleshootingID="cpj-p01">
+		<Status>[84][03][01][51][FF][FF][FF][FF]</Status>
+</JamInside_M3-1112>
+</Status>
+<About MDL="Samsung M332x 382x 402x Series" OSVERSION="V4.00.02.09 MAY-18-2016">
+</About>
+</StatusMonitorInfo>
